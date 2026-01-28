@@ -81,3 +81,10 @@ boxes.forEach((box) => {
         drawCheck();
     }); 
 });
+
+
+//This is a simple Tic Tac Toe game implementation in JavaScript. It allows two players to take turns marking X and O on a 3x3 grid, checks for a winner or a draw, and provides options to reset the game or start a new game.
+// The game logic is handled through event listeners on the grid buttons and functions to check for winning patterns and draw conditions.
+// The user interface is updated dynamically based on the game state.
+// Overall, it provides a basic but functional Tic Tac Toe experience in a web environment.
+// / Enjoy playing!
