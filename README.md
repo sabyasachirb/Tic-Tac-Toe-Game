@@ -5,4 +5,10 @@ The game logic is handled through event listeners on the grid buttons and functi
 The user interface is updated dynamically based on the game state.</br>
 Overall, it provides a basic but functional Tic Tac Toe experience in a web environment.</br>
 Enjoy playing!</br>
+
+CHECK IT OUT
+
+https://sabyasachirb.github.io/Tic-Tac-Toe-Game/
+
+
 # You're WELCOME! 
