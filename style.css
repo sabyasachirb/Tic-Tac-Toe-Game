@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #94BBE9; */
+    background: #ded9db;
+    background: radial-gradient(circle, rgba(222, 217, 219, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+h1{
+    color: #333;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.game{
+    display: grid;
+    grid-template-columns: repeat(3, 5rem);
+    grid-template-rows: repeat(3, 5rem);
+    gap: 15px;
+    background: #ded9db;
+    background: radial-gradient(circle, rgba(222, 217, 219, 1) 0%, rgba(201, 225, 255, 1) 100%);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.btn{
+    height: 5rem;
+    width: 5rem;
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #333;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.btn:hover{
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
+#reset{
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+}
+#reset:hover{
+    background-color: #555;
+}
+
+.msg{
+    color: #585454;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.msg-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    height: 100vh;
+    width: 100vw;
+    background: #ded9db;
+    background: radial-gradient(circle, rgba(222, 217, 219, 1) 0%, rgba(201, 225, 255, 1) 100%);
+}
+
+.upper{
+    display: none;
+}
+
+#newbtn{
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+}
+
+#newbtn:hover{
+    background-color: #555;
+}
